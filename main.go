@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/MIXThanakorn/go-lecture04/myarray"
-	"github.com/MIXThanakorn/go-lecture04/myfunction"
-	"github.com/MIXThanakorn/go-lecture04/mymap"
+	"github.com/KittiWilawan/lecture04/myarray"
+	"github.com/KittiWilawan/lecture04/myfunction"
+	"github.com/KittiWilawan/lecture04/mymap"
 )
 
 func main() {
