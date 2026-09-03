@@ -1,16 +1,18 @@
-package myslice
+package main
 
-import "fmt"
+import (
+	"fmt"
 
-func mysliceC() {
+	"github.com/MIXThanakorn/go-lecture04/myarray"
+	"github.com/MIXThanakorn/go-lecture04/myfunction"
+	"github.com/MIXThanakorn/go-lecture04/mymap"
+)
 
-	data1 := []string{"a", "b", "c", "d", "e"}
-	fmt.Println(data1)
-
-	data2 := data1[1:4]
-	fmt.Println(data2)
-
-	data3 := append(data2, "f")
-	fmt.Println(data3)
-
+func main() {
+	fmt.Println("Hello World")
+	myfunction.ShowWow()
+	myfunction.Showwoo()
+	myfunction.ShowDTI()
+	myarray.MyArray1()
+	mymap.MyMap1()
 }
