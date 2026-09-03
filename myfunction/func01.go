@@ -2,30 +2,26 @@ package myfunction
 
 import "fmt"
 
-//no parameter, no return value
 func doA() {
-	fmt.Println("Hello")
+	fmt.Println("Hiii")
 }
 
-//have parameter, no return value
 func doB(x int, y int) {
 	fmt.Println(x + y)
 }
 
-//no parameter, have return value
 func doC() int {
-	fmt.Println("Hello")
+	fmt.Println("Ho...")
 	return 100
 }
 
-//have parameter, have return value
 func doD() (int, string) {
-	fmt.Println("Hello")
-	return 555, "Hello"
+	fmt.Println("Hew")
+	return 555, "Hew"
 }
 
 func doE(p1 int, p2 string, p3 bool) (int, string, bool) {
-	fmt.Println("Hello")
-	return 100, "Hello", true
+	fmt.Println("Helo")
+	return 100, "Helo", true
 
 }
